@@ -38,6 +38,31 @@
   padding: 20px 0 0 0;
 }
 
+.loginButton {
+  border: 0;
+}
+
+#contact {
+  position: fixed;
+  bottom: 41px;
+  left: 50%;
+  margin-left: -164px;
+  font-size: 18px;
+}
+
+#copyright {
+  position: fixed;
+  bottom: 2px;
+  left: 50%;
+  margin-left: -102px;
+}
+
+#copy {
+  font-size: 11px;
+  font-family: sans-serif;
+  color: lightgray;
+}
+
 .customerLogin {
   background-color: black;
   color: lightgreen;
@@ -127,6 +152,12 @@ h1 {
 
 p {
   font-family: "Exo", sans-serif;
+  color: lightgreen;
+  text-shadow: 2px 2px black;
+  font-size: 18px;
+}
+
+a, a:visited, a:hover {
   color: lightgreen;
   text-shadow: 2px 2px black;
 }
